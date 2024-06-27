@@ -2,14 +2,17 @@
 
 [[package]]
 name = "a2wsgi"
-version = "1.10.4"
+version = "1.10.6"
 description = "Convert WSGI app to ASGI app or ASGI app to WSGI app."
 optional = false
 python-versions = ">=3.8.0"
 files = [
-    {file = "a2wsgi-1.10.4-py3-none-any.whl", hash = "sha256:f17da93bf5952e0b0938c87f261c52b7305ddfab1ff3c70dd10b4b76db3851d3"},
-    {file = "a2wsgi-1.10.4.tar.gz", hash = "sha256:50e81ac55aa609fa2c666e42bacc25c424c8884ce6072f1a7e902114b7ee5d63"},
+    {file = "a2wsgi-1.10.6-py3-none-any.whl", hash = "sha256:792564792d08a822af7a289005b6177508fe5c6d6667adfdd09401cd2a7c280d"},
+    {file = "a2wsgi-1.10.6.tar.gz", hash = "sha256:6e5e859623c8b62e6570b9082bbc1e714f78d7c3f7844847be8b666037c6d94c"},
 ]
+
+[package.dependencies]
+typing_extensions = {version = "*", markers = "python_version < \"3.11\""}
 
 [[package]]
 name = "alembic"
@@ -2544,4 +2547,4 @@ dev = ["black (>=19.3b0)", "pytest (>=4.6.2)"]
 [metadata]
 lock-version = "2.0"
 python-versions = ">=3.9,<3.9.7 || >3.9.7,<4.0"
-content-hash = "e10ea9155e7469370846641b0e2a91f57d56d2b1639e17b95e8bfa546eaaefca"
+content-hash = "c5736a0b0187498869a4ab61ed210f3f11ab2013167a2351771c77edc7679cdb"
